@@ -1,180 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>DailyJobsExplorer | Part Time Remote Jobs</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part Time Jobs Available - Start Immediately</title>
 
-<meta name="description" content="Explore part-time remote job opportunities with flexible hours. No experience required. Secure and verified listings.">
+    <!-- SEO -->
+    <meta name="description" content="Start flexible part-time online jobs. Earn $16–$36 per hour. No experience required.">
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    background:#f2f4f7;
-    margin:0;
-    padding:0;
-}
-.container{
-    max-width:640px;
-    margin:30px auto;
-    background:#ffffff;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-    text-align:center;
-}
-.logo{
-    font-size:26px;
-    font-weight:700;
-    color:#ff7a00;
-    margin-bottom:10px;
-}
-.hero img{
-    width:130px;
-    margin:20px auto;
-}
-h1{
-    font-size:28px;
-    color:#1f2933;
-    margin-bottom:10px;
-}
-.salary{
-    font-size:20px;
-    font-weight:600;
-    color:#2563eb;
-    margin-bottom:20px;
-}
-.desc{
-    font-size:15px;
-    color:#4b5563;
-    line-height:1.6;
-}
-.btn{
-    display:block;
-    background:#22c55e;
-    color:#fff;
-    padding:16px;
-    margin:15px 0;
-    text-decoration:none;
-    font-size:18px;
-    border-radius:8px;
-    font-weight:600;
-}
-.btn:hover{
-    background:#16a34a;
-}
-.subtext{
-    font-size:13px;
-    color:#6b7280;
-}
-.trust{
-    display:flex;
-    justify-content:space-around;
-    margin:25px 0;
-    font-size:14px;
-    color:#374151;
-}
-.trust div{
-    background:#f9fafb;
-    padding:10px;
-    border-radius:6px;
-}
-.reviews{
-    text-align:left;
-    margin-top:30px;
-}
-.reviews h3{
-    text-align:center;
-    color:#111827;
-}
-.review{
-    display:flex;
-    gap:12px;
-    margin:15px 0;
-}
-.review img{
-    width:48px;
-    height:48px;
-    border-radius:50%;
-}
-.review p{
-    margin:0;
-    font-size:14px;
-    color:#374151;
-}
-.footer{
-    font-size:12px;
-    color:#6b7280;
-    margin-top:30px;
-    line-height:1.6;
-}
-</style>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-md mx-auto bg-white shadow-lg min-h-screen">
 
-<div class="container">
-
-    <div class="logo">DailyJobsExplorer</div>
-
-    <div class="hero">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Remote Work">
-    </div>
-
-    <h1>Part-Time Remote Jobs Available</h1>
-    <div class="salary">$16 – $36 per hour</div>
-
-    <p class="desc">
-        Discover flexible online work opportunities you can do from home.  
-        Simple task-based jobs with clear instructions.  
-        Suitable for students, freelancers, and job seekers.
-    </p>
-
-    <!-- CTA BUTTON -->
-    <a href="https://www.af9m8trk.com/PJM11AM1/QLQ11Y4B/" class="btn" target="_blank">
-        Check Available Jobs
-    </a>
-    <p class="subtext">No fees • Secure verification • Limited slots</p>
-
-    <div class="trust">
-        <div>✔ Verified Listings</div>
-        <div>✔ Secure Access</div>
-        <div>✔ No Upfront Cost</div>
-    </div>
-
-    <div class="reviews">
-        <h3>Trusted by People</h3>
-
-        <div class="review">
-            <img src="https://randomuser.me/api/portraits/women/44.jpg">
-            <p><strong>Jessica M.</strong><br>
-            Easy to understand tasks and flexible hours. Works well for me.</p>
+        <!-- TOP -->
+        <div class="bg-blue-600 text-white p-6 text-center">
+            <h1 class="text-2xl font-bold mb-2">Part Time Jobs Available</h1>
+            <div class="text-3xl font-extrabold mb-2">$16 – $36 / hour</div>
+            <p class="text-blue-100">Work online in your spare time</p>
         </div>
 
-        <div class="review">
-            <img src="https://randomuser.me/api/portraits/men/35.jpg">
-            <p><strong>Daniel R.</strong><br>
-            Legit opportunity. I like the step-by-step process.</p>
+        <!-- QUESTION -->
+        <div class="p-6 text-center">
+            <h2 class="text-xl font-semibold mb-6 text-gray-800">
+                When Can You Start Working?
+            </h2>
+
+            <button id="startNowBtn"
+                class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-lg text-lg mb-6 transition">
+                🟢 Yes, I Can Start Now
+            </button>
         </div>
 
-        <div class="review">
-            <img src="https://randomuser.me/api/portraits/women/68.jpg">
-            <p><strong>Emily S.</strong><br>
-            No registration fees and very clear instructions.</p>
+        <!-- INFO -->
+        <div class="px-6 pb-6">
+            <h3 class="text-lg font-semibold mb-4 text-gray-800">Why This Job?</h3>
+
+            <div class="space-y-3 text-gray-700">
+                <div>✓ Flexible working hours</div>
+                <div>✓ Work from home</div>
+                <div>✓ Mobile & desktop friendly</div>
+                <div>✓ No experience required</div>
+                <div>✓ No registration fees</div>
+            </div>
         </div>
+
+        <!-- URGENCY -->
+        <div class="px-6 pb-4">
+            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+                <p class="text-sm font-medium text-yellow-800">
+                    ⏳ Limited positions available
+                </p>
+                <p class="text-sm text-yellow-700">
+                    Availability may change at any time.
+                </p>
+            </div>
+        </div>
+
+        <!-- CTA (CPA LINK HERE) -->
+        <div class="px-6 pb-6">
+            <a href="https://www.af9m8trk.com/PJM11AM1/QLQ11Y4B/" target="_blank">
+                <button id="continueBtn"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-lg text-lg transition">
+                    👉 Show Me Available Jobs
+                </button>
+            </a>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="bg-gray-100 p-6 text-center border-t">
+            <div class="flex justify-center items-center mb-2">
+                <span class="mr-2">🔒</span>
+                <span class="font-semibold text-gray-800">Privacy Protected</span>
+            </div>
+            <p class="text-sm text-gray-600">No hidden charges • Secure process</p>
+        </div>
+
     </div>
 
-    <a href="https://www.af9m8trk.com/PJM11AM1/QLQ11Y4B/" class="btn" target="_blank">
-        Continue to Job Details
-    </a>
-
-    <div class="footer">
-        © 2026 DailyJobsExplorer. All rights reserved.<br>
-        This website is for promotional and informational purposes only.
-        Earnings depend on effort, availability, and task completion.
-    </div>
-
-</div>
+    <!-- JS -->
+    <script>
+        document.getElementById("startNowBtn").addEventListener("click", function () {
+            document.getElementById("continueBtn").scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    </script>
 
 </body>
 </html>
